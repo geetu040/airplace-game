@@ -179,8 +179,15 @@ class Game {
 
 
 	get_map(map_type) {
-		// getting the maps
 		loading.style.setProperty("visibility", "visible")
+		btn_fast_automation.disabled = true
+		btn_pause_auto.disabled = true
+		btn_next_map.disabled = true
+		btn_speeder.disabled = true
+		btn_collide.disabled = true
+		btn_replace.disabled = true
+		btn_guide.disabled = true
+
 		this.info.map_type = map_type
 		this.info.steps = 0
 
@@ -188,8 +195,16 @@ class Game {
 		.then(response => response.json())
 		.then(data => {
 			this.info = JSON.parse(data)
-			loading.style.setProperty("visibility", "hidden")
 			this.update_map()
+
+			loading.style.setProperty("visibility", "hidden")
+			btn_fast_automation.disabled = false
+			btn_pause_auto.disabled = false
+			btn_next_map.disabled = false
+			btn_speeder.disabled = false
+			btn_collide.disabled = false
+			btn_replace.disabled = false
+			btn_guide.disabled = false
 		});
 	}
 	update_map() {
