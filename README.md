@@ -7,3 +7,5 @@ You can play the games by following the link below
 [Airplane Game](https://geetu040.github.io/airplane/)
 
 [Intelli Snake 2](https://geetu040.github.io/intelli-snake-2/)
+
+[Daraz Clone](https://geetu040.github.io/daraz-clone/)
