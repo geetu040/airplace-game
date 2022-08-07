@@ -9,3 +9,5 @@ You can play the games by following the link below
 [Intelli Snake 2](https://geetu040.github.io/intelli-snake-2/)
 
 [Daraz Clone](https://geetu040.github.io/daraz-clone/)
+
+[Word Align](https://geetu040.github.io/word-align/)

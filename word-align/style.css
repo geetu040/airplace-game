@@ -1,0 +1,74 @@
+:root {
+    --border: 2px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.control {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+input {
+    display: none;
+}
+label, .pt, .df {
+    margin: 1.5vw;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(83, 167, 245);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.pt {
+    display: none;
+}
+.df {
+}
+table {
+
+    margin: auto;
+    padding-top: 50px;
+    width: 98vw;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th {
+    border: var(--border);
+}
+.sr {
+    border: var(--border);
+    padding: 4px auto;
+    width: 40px;
+    text-align: center;
+}
+.word {
+    border: var(--border);
+    padding: 4px 11px;
+}
+.meaning {
+    border: var(--border);
+    padding: 4px 11px;
+}
+.cls {
+    border: var(--border);
+    padding: 4px auto;
+    width: 55px;
+    text-align: center;
+}
+
+@media print {
+    .control {
+        display: none;
+    }
+}
