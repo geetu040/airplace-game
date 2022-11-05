@@ -81,8 +81,6 @@ create_eye_tracker = (htmlObj, data) => {
 
 }
 
-console.log(window.location.href)
-
 const data = {
 	url: window.location.href + "/imgs/img.png",
 	eyes: [
