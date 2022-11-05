@@ -1,6 +1,6 @@
 # Hosting Static Web Apps
 ### ```HTML``` ```CSS``` ```JavaScript```
-####```You can play the games by following the link below```
+```You can play the games by following the link below```
 
 <hr/>
 
