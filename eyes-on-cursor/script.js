@@ -81,18 +81,17 @@ create_eye_tracker = (htmlObj, data) => {
 
 }
 
-
 const data = {
-	url: "/src/img.png",
+	url: window.location.href + "/imgs/img.png",
 	eyes: [
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [1, 1.5],
 			center: [0.255, 0.5],
 			diameters: [0.15, 0.38],
 		},
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [1, 1.5],
 			center: [0.755, 0.5],
 			diameters: [0.15, 0.38],
@@ -100,28 +99,28 @@ const data = {
 	]
 }
 const data2 = {
-	url: "/src/img3.png",
+	url: window.location.href + "/imgs/img3.png",
 	eyes: [
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [0.2, 0.2],
 			center: [0.36, 0.6],
 			diameters: [0.07 - 0.04, 0.07 - 0.04],
 		},
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [0.2, 0.2],
 			center: [0.47, 0.57],
 			diameters: [0.07 - 0.04, 0.07 - 0.04],
 		},
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [0.2, 0.2],
 			center: [0.617-0.01, 0.337],
 			diameters: [0.084 - 0.04, 0.084 - 0.04],
 		},
 		{
-			eye_ball_url: "/src/eye_ball.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball.png",
 			dim_zoom: [0.2, 0.2],
 			center: [0.73-0.01, 0.334],
 			diameters: [0.084 - 0.04, 0.084 - 0.04],
@@ -129,16 +128,16 @@ const data2 = {
 	]
 }
 const data4 = {
-	url: "/src/img4.png",
+	url: window.location.href + "/imgs/img4.png",
 	eyes: [
 		{
-			eye_ball_url: "/src/eye_ball_2.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball_2.png",
 			dim_zoom: [0.6, 0.6],
 			center: [0.41, 0.223],
 			diameters: [0.05, 0.04],
 		},
 		{
-			eye_ball_url: "/src/eye_ball_2.png",
+			eye_ball_url: window.location.href + "/imgs/eye_ball_2.png",
 			dim_zoom: [0.6, 0.6],
 			center: [0.572, 0.223],
 			diameters: [0.05, 0.04],
